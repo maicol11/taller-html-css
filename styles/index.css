@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial';
+    margin: 0;
+}
+header {
+    display: flex;
+    background-color: #000;
+    color: #f1f1f1;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-bottom: 3px solid #fff;
+}
+header .welcome {
+    width: 40%;
+}
+header .options {
+    width: 60%;
+    text-align: right;
+}
+header .options a {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-block-start: 0.83em;
+}
+.container {
+    background-image: url('../images/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #000;
+}
+.first-section {
+    width: 55%;
+    padding-left: 3%;
+}
+p.description {
+    padding-top: 3%;
+}
+p {
+    margin: 0;
+    color: #fff;
+    text-align: justify;
+}
+.family-sons {
+    margin-bottom: 3%;
+}
+.sons {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    filter: grayscale(0.9);
+}
+.sons:hover {
+    transition: 0.5s all;
+    filter: grayscale(0);
+    cursor: pointer;
+
+}
+.family {
+    width: 400px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+}

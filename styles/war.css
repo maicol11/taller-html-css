@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial';
+    margin: 0;
+}
+header {
+    display: flex;
+    background-color: #000;
+    color: #f1f1f1;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-bottom: 3px solid #fff;
+}
+header .welcome {
+    width: 40%;
+}
+header .options {
+    width: 60%;
+    text-align: right;
+}
+header .options a {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-block-start: 0.83em;
+}
+.container {
+    background-color: #000;
+}
+.first-section {
+    width: 55%;
+    padding-left: 3%;
+}
+p {
+    color: #fff;
+    text-align: justify;
+    margin: 0;
+}
+.container div {
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+.all {
+    width: 400px;
+    display: block;
+    margin: 0px auto;
+}
+.three {
+    width: 400px;
+    vertical-align: top;
+    margin-left: 10px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
